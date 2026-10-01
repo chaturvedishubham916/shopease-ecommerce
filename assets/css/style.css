@@ -1,0 +1,7 @@
+body { background: #f6f7f9; }
+.hero { background: linear-gradient(120deg, #212529, #495057); color: #fff; border-radius: .75rem; padding: 2.5rem 2rem; }
+.product-card { transition: transform .15s, box-shadow .15s; }
+.product-card:hover { transform: translateY(-3px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.12); }
+.product-card img { height: 190px; object-fit: contain; background: #fff; padding: .75rem; }
+.price { font-size: 1.15rem; font-weight: 700; color: #198754; }
+.auth-card { max-width: 460px; margin: 1.5rem auto; }
